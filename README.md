@@ -3,6 +3,10 @@
 
 
 ### 部署方式
+* 拉取代码
+```
+git clone git@github.com:luzhaoxin/JavaEE.git
+```
 * 首先保证有Docker和Docker Compose的环境
 * 命令行进入Fame文件根目录
 * 运行```docker-compose up```或 ```docker-compose up -d```命令，第一次运行建议使用```docker-compose up```可以看见启动日志，等待镜像和依赖下载完毕。
